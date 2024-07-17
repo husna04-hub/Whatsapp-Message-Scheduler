@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Scheduler</title>
+  <style>
+    .h2{
+      color:#E9EDEF
+    }
+    .h3
+    { 
+      background-image: url(bg.png);
+      /* background-color: #2A3942; */
+      border-radius: 5px;
+      border: none; 
+      color:#E9EDEF
+    }
+    body {
+      font-family: Arial, sans-serif;
+      width: 200px;
+      padding: 10px;
+      background-color:#202c33;
+    }
+    input, button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3 class="h2">Schedule Message</h3>
+  <input type="text" id="contactName" placeholder="Contact Name" class="h3">
+  <input type="text" id="message" placeholder="Message"  class="h3">
+  <input type="datetime-local" id="time"   class="h3">
+  <button id="scheduleBtn">Schedule</button   class="h3">
+  <button id="debugBtn">Debug</button   class="h3">
+
+  <script src="popup.js"></script>
+</body>
+</html>
