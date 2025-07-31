@@ -1,0 +1,1 @@
+The WhatsApp Message Scheduler is a Chrome Web Extension that enables users to schedule messages to be sent at specific times. It's perfect for personal reminders, professional follow-ups, and marketing campaigns.
